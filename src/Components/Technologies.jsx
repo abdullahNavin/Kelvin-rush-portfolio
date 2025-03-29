@@ -8,8 +8,8 @@ import { SiTailwindcss } from "react-icons/si";
 
 const Technologies = () => {
     return (
-        <div className='py-14 pb-20 ResContainer'>
-            <h1 className='text-4xl text-center'>Technologies</h1>
+        <div className='py-14 pb-10 ResContainer'>
+            <h1 className='text-4xl text-center pb-10'>Technologies</h1>
             <div className='flex justify-center items-center flex-wrap gap-10 mt-14'>
                 <div className='border-2 border-slate-500 p-5 rounded-2xl'>
                     <FaReact className='text-6xl text-sky-600' />
