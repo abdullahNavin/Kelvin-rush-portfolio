@@ -9,6 +9,6 @@
 
 @layer components {
     .ResContainer {
-        @apply px-2 md:px-3.5 lg:px-8 xl:px-11 2xl:px-12
+        @apply px-3 md:px-3.5 lg:px-8 xl:px-11 2xl:px-12
     }
 }
