@@ -1,5 +1,6 @@
 import React from 'react';
 import { ABOUT_TEXT } from '../assets/constants';
+import { motion } from "motion/react"
 
 const About = () => {
     
