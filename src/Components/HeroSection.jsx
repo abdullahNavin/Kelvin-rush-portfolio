@@ -22,19 +22,20 @@ const HeroSection = () => {
                         initial="hidden"
                         animate="visible"
                         className='text-2xl md:text-5xl playfair tracking-tight mb-3 md:mb-6'>Kelvin Rush</motion.h1>
-                    <motion.span 
-                        initial={{opacity:0}}
-                        animate={{opacity:1}}
-                        transition={{duration:10}}
-                    className='bg-gradient-to-r from-purple-700 via-slate-500 to-green-500 text-xl sm:text-3xl bg-clip-text text-transparent tracking-tight '>
+                    <motion.span
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        transition={{ duration: 10 }}
+                        className='bg-gradient-to-r from-purple-700 via-slate-500 to-green-500 text-xl sm:text-3xl bg-clip-text text-transparent tracking-tight '>
                         Full Stack Developer
                     </motion.span>
                     <p className='mt-2.5 md:mt-3.5 text-slate-200'>{HERO_CONTENT}</p>
                 </div>
             </div>
-            <div className=' flex justify-center items-center '>
+            <motion.div
+                className=' flex justify-center items-center '>
                 <img className='w-4/5' src="/src/assets/kevinRushProfile.png" alt="" />
-            </div>
+            </motion.div>
         </div>
     );
 };
